@@ -16,3 +16,4 @@ RUN pip install some-dependency
 
 # Menjalankan aplikasi Python ketika container dijalankan
 CMD ["python", "hello.py"]
+EXPOSE 80 22
