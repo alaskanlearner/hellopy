@@ -1,6 +1,9 @@
 # Menggunakan base image Python
 FROM python:3.8
 
+# Membuat direktori /app
+RUN mkdir /app
+
 # Menyalin berkas Python ke dalam container
 COPY hello.py /app/hello.py
 
